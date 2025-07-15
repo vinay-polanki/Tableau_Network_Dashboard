@@ -1,64 +1,97 @@
-# Tableau_Network_Dashboard
+# Network Health Dashboard – Offline Log Analyzer
 
-This project is a simple, offline tool built to help small businesses analyze their past network activity. It focuses on identifying patterns in failures, security incidents, and performance issues—without needing complex setups or expensive real-time monitoring tools. Everything runs on your local machine, so your data stays secure and in your control.
+This project was built to help anyone—from small teams to solo operators—make sense of their past network issues using the log files they already have. It’s a simple, offline tool that runs locally, combining Python (via Google Colab) for data processing and Tableau for visualizing the results in a way that’s actually useful.
 
-## Project Overview
+No complex setup. No cloud dependency. Just upload your logs and get insights.
 
-Many small businesses don’t have access to advanced network monitoring systems. These tools are often costly, require technical expertise, or rely on constant internet access. That makes it hard for teams to understand what went wrong and how to prevent it in the future.
+---
 
-This dashboard bridges that gap. It gives users an easy way to upload network log files, process the data, and get clear insights through charts and summaries. It’s simple, secure, and doesn’t need a tech team to run.
+## Why This Project Exists
 
-### What it offers:
-	•	Offline access for full data privacy
-	•	Easy setup, no advanced skills required
-	•	Automatic issue classification (Failure, Security, Performance)
-	•	Clean visuals and summaries anyone can understand
+Not every business has the budget or bandwidth for a full-fledged network monitoring system. But that doesn’t mean they should be left in the dark when it comes to understanding why their network failed—or which devices keep causing trouble.
+
+This project was created to fill that gap. It’s designed to be lightweight, practical, and easy enough for non-technical users. Just bring your CSV logs, and the system handles the rest—cleaning the data, categorizing issues, and turning everything into a clean, readable dashboard.
+
+---
+
+## What It Does
+
+- Upload your network log file (CSV format)
+- Automatically clean and organize the data
+- Classify each event as a **Failure**, **Security Issue**, or **Performance Warning**
+- Save the processed results in a local SQLite database
+- Analyze patterns across time, device, and severity
+- Visualize insights through a Tableau dashboard
+- Export a simple CSV summary report for future reference
+
+---
 
 ## How It Works
-To use the system, just upload a CSV file with your network logs. It should include things like timestamps, device names, and event types.
 
-The system will:
-	•	Clean the data and fix formatting issues
-	•	Classify events into relevant categories
-	•	Save everything to a local SQLite database
-	•	Analyze trends across time and devices
-	•	Show you results through easy-to-read dashboards
-	•	Let you export a summary report if needed
+1. Open the Google Colab notebook (link below)
+2. Upload your CSV log file
+3. The Python script:
+   - Cleans missing data and fixes formatting
+   - Tags each log by issue type
+   - Stores everything locally in SQLite
+4. Tableau reads that data and shows:
+   - Which devices had the most trouble
+   - When most issues occurred
+   - What kinds of problems were most common
 
-## Dashboard Highlights
+You can explore trends by hour, day, device, or severity—all in just a few clicks.
 
-The tool includes two main dashboard views:
+---
 
-1. Severity & Resolution Dashboard
-Focuses on how many issues occurred, how long they lasted, and how severe they were.
-Includes:
-	•	3,150 total cases
-	•	48.8% resolved
-	•	92.6 minutes average duration
-	•	19.5% marked critical
-With scatter plots, IP-level breakdowns, and severity maps.
+## What You'll See in the Dashboard
 
-2. Network Health Dashboard
-Shows when and where problems happened.
-Features:
-	•	Hourly heatmaps to spot peak problem times
-	•	Trends by date and device
-	•	Top 10 problematic devices
-	•	Event severity breakdown
+### Severity & Resolution View
+- Total number of logged issues
+- How many were resolved
+- Average time to resolution
+- Share of critical events
+- Visuals like scatter plots and IP-level breakdowns
 
-These views make it easy to understand what’s happening in your network at a glance.
+### Network Health View
+- Heatmaps showing issue frequency by hour
+- Trends over days and weeks
+- Breakdown of issue types and affected devices
+- Top 10 most problematic endpoints
 
-## Technology Used
+---
 
-This system is built using simple but powerful tools:
-	•	Python 3.11 for scripts and automation
-	•	pandas for data processing
-	•	SQLite for storing data locally
-	•	Matplotlib for visuals
-	•	Tableau (optional) for enhanced dashboards
+## Built With
 
-## Privacy & Security
+- **Python 3.11** in Google Colab  
+- **pandas** for data cleaning  
+- **SQLite** for lightweight, local data storage  
+- **Matplotlib** for quick visuals  
+- **Tableau** for final dashboard design  
 
-All your data stays local. The system doesn’t connect to the internet or upload anything to the cloud. This makes it perfect for businesses that care about privacy or operate in offline environments.
+---
 
-It’s reliable, secure, and easy to manage—even without a dedicated IT team.
+## Keeping It Local
+
+The whole system runs offline. Your log files, processed data, and reports stay on your machine. This makes it a good fit for teams with sensitive data or limited internet access.
+
+---
+
+## Try It Yourself
+
+Want to see how it works?  
+Just open the notebook, upload your logs, and follow the steps.
+
+👉 [Run the Google Colab Notebook](https://colab.research.google.com/drive/1D8A4IF_H1do1qK6bs6CyE594et4tuxdA?usp=share_link)
+
+---
+
+## Project Status
+
+The tool is fully working and tested with sample log data. That said, there’s always room to grow. A few potential next steps include:
+- Adding user roles or login features
+- Making the dashboard even more interactive
+- Introducing smart event classification using machine learning
+
+---
+
+Feel free to clone it, improve it, or use it as a base for your own internal projects. Feedback and suggestions are always welcome.
