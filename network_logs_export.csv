@@ -1,0 +1,283 @@
+Timestamp,Device_Name,Event_Type,Severity,Duration_Minutes,Source_IP,Destination_IP,Port_Number,Protocol,Resolved,issue_type
+2024-01-30 19:40:00,access_point_y,connection lost,MEDIUM,49.0,192.168.237.90,10.0.129.255,3609,TLS,Yes,other
+2024-01-27 22:56:00,firewall x,slow network,moderate,166.0,192.168.132.87,10.0.237.183,2230,QUIC,No,other
+2024-02-06 19:00:00,db_z,firmware crash,critical,120.0,192.168.243.126,10.0.58.138,1682,tcp,Yes,other
+2024-02-11 09:28:00,srv c,firmware crash,High,40.0,192.168.50.148,10.0.203.149,5976,tcp,No,other
+2024-01-06 21:57:00,router a,slow network,LOW,133.0,192.168.68.238,10.0.83.33,6038,Tcp,Yes,other
+2024-01-12 07:00:00,switch-b,downtime,high,93.0,192.168.255.192,10.0.196.198,7529,ICMP,Yes,other
+2024-01-09 18:17:00,load_balancer_1,firmware crash,moderate,180.0,192.168.179.201,10.0.200.161,6115,Tcp,No,other
+2024-01-05 03:34:00,db_z,ddos attack,CRITICAL,46.0,192.168.24.123,10.0.26.225,4879,icmp,No,other
+2024-01-13 16:34:00,router a,firmware crash,high,71.0,192.168.31.70,10.0.89.232,2706,TLS,Yes,other
+2024-02-17 21:10:00,server_c,slow network,LOW,123.0,192.168.76.59,10.0.142.228,3511,ICMP,No,other
+2024-01-09 22:35:00,db_z,firmware crash,high,154.0,192.168.80.82,10.0.211.46,7028,Tcp,No,other
+2024-02-04 21:04:00,firewall x,firmware crash,high,114.0,192.168.104.104,10.0.49.232,6995,Tcp,No,other
+2024-02-13 04:21:00,firewall x,downtime,moderate,103.0,192.168.198.63,10.0.185.228,577,UDP,No,other
+2024-02-15 12:57:00,srv c,unauthorized access,High,108.0,192.168.108.42,10.0.91.162,6720,TLS,No,security
+2024-01-03 23:39:00,switch-b,high latency,High,40.0,192.168.107.237,10.0.69.255,967,tcp,Yes,performance
+2024-01-01 16:29:00,server_c,slow network,low,130.0,192.168.24.159,10.0.220.61,3269,TLS,No,other
+2024-01-04 16:29:00,router a,packet loss,critical,124.0,192.168.214.208,10.0.53.90,861,tcp,Yes,failure
+2024-01-17 04:43:00,db_z,firmware crash,LOW,148.0,192.168.155.140,10.0.147.186,4600,UDP,Yes,other
+2024-01-13 20:04:00,router a,firmware crash,CRITICAL,89.0,192.168.145.129,10.0.252.227,3951,Tcp,Yes,other
+2024-01-26 13:25:00,router a,connection lost,MEDIUM,180.0,192.168.242.16,10.0.75.66,4234,ICMP,No,other
+2024-02-08 19:54:00,edge_proxy,unauthorized access,Severe,26.0,192.168.17.41,10.0.80.53,6895,QUIC,Yes,security
+2024-02-13 14:25:00,server_c,hardware failure,Severe,114.0,192.168.228.109,10.0.114.73,5022,TLS,Yes,other
+2024-01-08 01:40:00,firewall x,high latency,Severe,88.0,192.168.118.232,10.0.147.203,4336,QUIC,Yes,performance
+2024-01-10 12:49:00,switch-b,high latency,Severe,5.0,192.168.65.236,10.0.149.49,477,icmp,Yes,performance
+2024-01-22 12:56:00,router a,firmware crash,LOW,104.0,192.168.91.96,10.0.164.207,944,DNS,No,other
+2024-02-09 12:32:00,access_point_y,ddos attack,LOW,115.0,192.168.180.69,10.0.205.67,2983,TLS,No,other
+2024-01-29 19:09:00,access_point_y,packet loss,MEDIUM,66.0,192.168.105.64,10.0.242.125,6670,Tcp,No,failure
+2024-02-10 02:39:00,srv c,connection lost,high,158.0,192.168.7.168,10.0.187.210,5372,udp,Yes,other
+2024-01-05 06:42:00,edge_proxy,downtime,CRITICAL,146.0,192.168.79.159,10.0.168.221,1147,icmp,No,other
+2024-02-15 22:35:00,router a,packet loss,Severe,157.0,192.168.247.209,10.0.1.92,2383,ICMP,Yes,failure
+2024-02-14 18:36:00,router a,firmware crash,med,91.0,192.168.84.234,10.0.97.191,164,Tcp,Yes,other
+2024-01-06 06:13:00,srv c,high latency,low,180.0,192.168.252.199,10.0.50.243,3861,ICMP,No,performance
+2024-01-01 00:02:00,server_c,unauthorized access,High,30.0,192.168.132.27,10.0.191.140,3785,Tcp,Yes,security
+2024-02-15 18:53:00,router a,slow network,high,148.0,192.168.228.150,10.0.26.253,4488,ICMP,Yes,other
+2024-01-06 06:39:00,switch-b,unauthorized access,high,168.0,192.168.179.43,10.0.219.220,4235,QUIC,Yes,security
+2024-01-25 12:35:00,router a,unauthorized access,High,51.0,192.168.230.170,10.0.35.54,7735,QUIC,No,security
+2024-01-14 18:19:00,load_balancer_1,ddos attack,high,99.0,192.168.10.138,10.0.242.166,5309,DNS,No,other
+2024-02-04 11:29:00,server_c,connection lost,LOW,7.0,192.168.5.176,10.0.151.237,6764,tcp,Yes,other
+2024-02-06 23:38:00,firewall x,hardware failure,med,32.0,192.168.229.109,10.0.138.159,1469,udp,No,other
+2024-01-29 02:09:00,server_c,firmware crash,low,82.0,192.168.86.21,10.0.178.30,6233,QUIC,No,other
+2024-02-11 22:31:00,router a,unauthorized access,high,120.0,192.168.104.6,10.0.160.115,4386,tcp,No,security
+2024-01-05 07:35:00,edge_proxy,slow network,High,96.0,???.???.???.???,10.0.108.123,5580,tcp,Yes,other
+2024-01-09 20:07:00,router a,firmware crash,critical,123.0,192.168.32.17,10.0.99.159,5292,ICMP,No,other
+2024-01-27 05:49:00,access_point_y,slow network,LOW,7.0,192.168.96.228,10.0.34.131,2264,ICMP,No,other
+2024-01-23 10:53:00,firewall x,unauthorized access,Severe,84.0,192.168.213.8,10.0.153.32,5491,icmp,No,security
+2024-02-10 09:48:00,access_point_y,high latency,LOW,59.0,192.168.56.14,10.0.39.230,4963,tcp,No,performance
+2024-02-05 13:25:00,switch-b,downtime,low,37.0,192.168.156.143,10.0.103.137,5564,TLS,Yes,other
+2024-01-06 13:13:00,edge_proxy,ddos attack,CRITICAL,12.0,192.168.8.127,10.0.215.208,1062,udp,Yes,other
+2024-02-14 19:02:00,server_c,slow network,low,20.0,192.168.178.104,10.0.174.124,5172,tcp,Yes,other
+2024-02-10 12:21:00,firewall x,connection lost,med,7.0,192.168.53.239,10.0.189.143,7665,Tcp,No,other
+2024-01-22 08:21:00,access_point_y,high latency,high,5.0,192.168.160.24,10.0.124.233,3307,icmp,Yes,performance
+2024-01-27 23:12:00,access_point_y,slow network,med,65.0,192.168.63.156,10.0.222.76,1289,icmp,No,other
+2024-01-19 21:03:00,srv c,slow network,MEDIUM,7.0,192.168.231.133,10.0.23.188,4809,Tcp,Yes,other
+2024-01-06 16:25:00,router a,packet loss,MEDIUM,67.0,192.168.241.235,10.0.34.23,7775,QUIC,No,failure
+2024-01-23 21:42:00,load_balancer_1,unauthorized access,moderate,171.0,192.168.70.87,10.0.59.75,6506,UDP,No,security
+2024-01-09 00:27:00,srv c,hardware failure,LOW,58.0,192.168.68.221,10.0.195.58,4782,UDP,Yes,other
+2024-01-07 14:05:00,srv c,ddos attack,High,45.0,192.168.30.29,10.0.241.253,4747,icmp,No,other
+2024-01-26 17:29:00,srv c,unauthorized access,low,167.0,192.168.177.144,10.0.163.117,3518,tcp,No,security
+2024-01-25 08:21:00,access_point_y,connection lost,CRITICAL,16.0,192.168.227.132,10.0.101.250,6272,udp,No,other
+2024-01-07 22:51:00,srv c,connection lost,Severe,129.0,192.168.232.254,10.0.250.156,5971,UDP,No,other
+2024-01-07 02:35:00,switch-b,ddos attack,med,89.0,192.168.214.145,10.0.213.154,1696,TLS,Yes,other
+2024-01-26 14:52:00,switch-b,ddos attack,high,119.0,192.168.24.105,10.0.228.211,6474,ICMP,No,other
+2024-01-15 17:12:00,router a,ddos attack,High,108.0,192.168.90.180,10.0.167.195,4712,tcp,Yes,other
+2024-01-12 13:40:00,switch-b,slow network,med,131.0,192.168.188.118,10.0.185.100,7575,Tcp,No,other
+2024-01-13 19:27:00,db_z,firmware crash,MEDIUM,57.0,192.168.33.212,10.0.181.181,3341,TLS,No,other
+2024-02-04 08:48:00,switch-b,unauthorized access,low,124.0,192.168.147.171,10.0.107.185,4068,udp,No,security
+2024-02-18 11:31:00,firewall x,ddos attack,LOW,98.0,192.168.38.92,10.0.96.85,6281,DNS,No,other
+2024-02-17 15:01:00,load_balancer_1,high latency,low,167.0,192.168.206.113,10.0.10.216,3477,DNS,No,performance
+2024-01-02 15:41:00,load_balancer_1,unauthorized access,High,169.0,192.168.60.241,10.0.70.23,7000,tcp,No,security
+2024-01-30 01:56:00,db_z,high latency,Severe,75.0,192.168.54.238,10.0.187.169,5755,QUIC,No,performance
+2024-01-19 23:58:00,switch-b,firmware crash,MEDIUM,92.0,192.168.132.87,10.0.144.197,Unknown,DNS,No,other
+2024-01-31 19:16:00,firewall x,packet loss,CRITICAL,140.0,192.168.230.50,10.0.198.42,4403,udp,No,failure
+2024-02-05 02:15:00,router a,high latency,High,80.0,192.168.234.51,10.0.149.21,2512,udp,No,performance
+2024-02-07 09:32:00,load_balancer_1,connection lost,high,138.0,192.168.177.1,10.0.81.138,7159,icmp,Yes,other
+2024-02-05 11:51:00,server_c,high latency,med,5.0,192.168.131.112,10.0.210.152,4992,UDP,No,performance
+2024-02-03 22:49:00,server_c,unauthorized access,high,55.0,192.168.214.145,10.0.242.185,3246,QUIC,Yes,security
+2024-02-02 09:13:00,server_c,slow network,moderate,26.0,192.168.221.228,10.0.85.133,5461,udp,No,other
+2024-02-02 10:19:00,router a,unauthorized access,Severe,115.0,192.168.34.56,10.0.200.78,3832,tcp,No,security
+2024-01-26 01:55:00,db_z,hardware failure,MEDIUM,160.0,192.168.241.120,10.0.161.124,4695,udp,No,other
+2024-01-06 13:39:00,server_c,connection lost,high,159.0,192.168.218.136,10.0.202.59,426,UDP,Yes,other
+2024-01-23 10:34:00,load_balancer_1,high latency,LOW,70.0,192.168.163.217,10.0.105.76,5921,ICMP,No,performance
+2024-02-17 08:42:00,router a,high latency,high,96.0,192.168.213.213,10.0.183.114,2308,DNS,Yes,performance
+2024-01-11 03:53:00,switch-b,firmware crash,moderate,128.0,192.168.23.208,10.0.153.132,7495,udp,No,other
+2024-01-17 20:45:00,switch-b,ddos attack,High,25.0,192.168.164.0,10.0.106.79,5908,udp,Yes,other
+2024-01-18 16:28:00,access_point_y,unauthorized access,Severe,6.0,192.168.168.232,10.0.113.41,3587,QUIC,No,security
+2024-02-10 02:29:00,server_c,hardware failure,low,41.0,192.168.13.83,10.0.1.120,5721,UDP,Yes,other
+2024-02-17 14:43:00,server_c,hardware failure,moderate,20.0,192.168.55.187,10.0.170.156,4631,tcp,Yes,other
+2024-02-18 01:48:00,access_point_y,hardware failure,low,136.0,192.168.210.216,10.0.166.116,2043,Tcp,No,other
+2024-02-06 13:09:00,access_point_y,ddos attack,CRITICAL,16.0,192.168.138.191,10.0.34.97,2109,icmp,No,other
+2024-01-21 23:42:00,router a,high latency,Severe,25.0,192.168.218.176,10.0.203.138,2080,tcp,Yes,performance
+2024-01-09 05:24:00,srv c,high latency,CRITICAL,98.0,192.168.141.248,10.0.165.61,6303,DNS,Yes,performance
+2024-01-30 23:06:00,srv c,hardware failure,med,5.0,192.168.97.103,10.0.84.217,3010,icmp,No,other
+2024-02-06 10:01:00,router a,ddos attack,moderate,163.0,192.168.9.176,10.0.147.210,1653,icmp,Yes,other
+2024-01-08 18:20:00,router a,hardware failure,moderate,169.0,192.168.211.137,10.0.46.71,5809,Tcp,Yes,other
+2024-02-12 10:24:00,load_balancer_1,hardware failure,High,149.0,192.168.178.33,10.0.105.180,5168,udp,No,other
+2024-02-05 21:24:00,server_c,connection lost,moderate,47.0,192.168.239.72,10.0.172.169,764,TLS,Yes,other
+2024-02-12 13:52:00,srv c,packet loss,med,99.0,192.168.179.215,10.0.14.248,1432,ICMP,No,failure
+2024-01-06 14:44:00,access_point_y,ddos attack,critical,93.0,192.168.133.32,10.0.74.227,3248,QUIC,Yes,other
+2024-01-13 14:12:00,srv c,hardware failure,MEDIUM,46.0,192.168.171.201,10.0.53.5,4077,udp,Yes,other
+2024-01-28 15:23:00,server_c,connection lost,CRITICAL,169.0,192.168.147.67,10.0.203.92,6882,DNS,Yes,other
+2024-01-29 18:20:00,server_c,downtime,critical,131.0,192.168.36.220,10.0.209.87,2072,TLS,No,other
+2024-01-02 08:10:00,access_point_y,downtime,MEDIUM,81.0,192.168.9.191,10.0.174.94,323,UDP,No,other
+2024-02-05 22:00:00,router a,connection lost,high,75.0,192.168.117.137,10.0.226.190,906,Tcp,No,other
+2024-01-09 03:30:00,server_c,packet loss,CRITICAL,64.0,192.168.74.192,10.0.254.199,3464,DNS,Yes,failure
+2024-01-16 09:36:00,switch-b,ddos attack,med,94.0,192.168.208.10,10.0.43.89,3065,DNS,Yes,other
+2024-02-16 10:38:00,switch-b,ddos attack,high,86.0,???.???.???.???,10.0.129.212,1939,ICMP,Yes,other
+2024-01-30 23:42:00,edge_proxy,hardware failure,Severe,88.0,192.168.147.5,10.0.26.14,345,TLS,No,other
+2024-01-18 15:36:00,firewall x,firmware crash,LOW,22.0,192.168.97.114,10.0.240.2,1264,ICMP,No,other
+2024-02-04 13:26:00,server_c,high latency,high,178.0,192.168.137.201,10.0.104.1,48,udp,Yes,performance
+2024-02-11 02:21:00,switch-b,unauthorized access,High,85.0,192.168.136.102,10.0.132.190,8029,UDP,No,security
+2024-01-23 13:21:00,router a,ddos attack,High,9.0,192.168.187.101,10.0.252.72,6094,Tcp,Yes,other
+2024-02-18 00:04:00,access_point_y,firmware crash,LOW,143.0,192.168.242.7,10.0.34.119,5671,tcp,No,other
+2024-01-07 02:13:00,switch-b,high latency,high,124.0,192.168.206.27,10.0.57.76,2352,ICMP,No,performance
+2024-01-30 22:06:00,db_z,high latency,moderate,66.0,192.168.42.137,10.0.139.233,7392,QUIC,Yes,performance
+2024-02-12 09:10:00,server_c,connection lost,critical,161.0,192.168.18.30,10.0.254.15,825,udp,Yes,other
+2024-02-03 12:48:00,srv c,ddos attack,low,42.0,192.168.18.136,10.0.229.251,6926,tcp,No,other
+2024-01-29 00:00:00,srv c,downtime,high,170.0,192.168.120.226,10.0.18.203,791,QUIC,Yes,other
+2024-01-15 11:30:00,server_c,firmware crash,High,49.0,192.168.193.66,10.0.244.197,2476,DNS,No,other
+2024-01-29 08:11:00,db_z,high latency,low,50.0,192.168.29.130,10.0.207.166,4394,QUIC,No,performance
+2024-01-12 06:11:00,router a,packet loss,high,77.0,192.168.100.77,10.0.76.74,7945,Tcp,No,failure
+2024-01-12 16:51:00,router a,downtime,low,121.0,192.168.242.233,10.0.100.49,3826,TLS,No,other
+2024-01-01 23:08:00,switch-b,slow network,low,35.0,192.168.44.142,10.0.182.64,1613,Tcp,No,other
+2024-01-17 07:59:00,db_z,high latency,LOW,117.0,192.168.245.128,10.0.110.163,249,UDP,Yes,performance
+2024-02-03 09:47:00,server_c,unauthorized access,low,147.0,192.168.159.152,10.0.124.216,3627,DNS,No,security
+2024-01-25 19:02:00,srv c,high latency,LOW,110.0,192.168.236.209,10.0.73.114,5118,icmp,Yes,performance
+2024-01-22 15:16:00,db_z,ddos attack,Severe,125.0,192.168.67.151,10.0.224.239,3174,QUIC,Yes,other
+2024-01-26 13:28:00,router a,unauthorized access,moderate,40.0,192.168.83.208,10.0.65.13,5567,DNS,No,security
+2024-01-30 10:51:00,switch-b,downtime,low,129.0,192.168.196.235,10.0.172.43,5256,DNS,No,other
+2024-02-03 07:04:00,srv c,hardware failure,MEDIUM,24.0,192.168.133.30,10.0.134.3,1848,ICMP,No,other
+2024-02-08 04:17:00,load_balancer_1,ddos attack,Severe,46.0,192.168.34.163,10.0.55.75,6014,tcp,Yes,other
+2024-01-12 16:16:00,switch-b,packet loss,high,116.0,192.168.63.190,10.0.111.20,4136,QUIC,No,failure
+2024-02-17 03:11:00,firewall x,firmware crash,MEDIUM,78.0,192.168.31.185,10.0.30.247,1425,udp,No,other
+2024-02-02 15:56:00,server_c,connection lost,critical,170.0,192.168.229.122,10.0.105.206,4830,Tcp,Yes,other
+2024-01-18 10:37:00,load_balancer_1,hardware failure,critical,57.0,192.168.167.153,10.0.75.68,8076,ICMP,Yes,other
+2024-01-03 17:54:00,router a,high latency,CRITICAL,115.0,192.168.56.56,10.0.152.67,3110,Tcp,Yes,performance
+2024-01-25 09:38:00,router a,downtime,Severe,119.0,192.168.134.30,10.0.77.114,226,tcp,Yes,other
+2024-01-16 03:41:00,server_c,hardware failure,moderate,53.0,192.168.40.75,10.0.220.236,7806,udp,Yes,other
+2024-02-11 19:46:00,srv c,ddos attack,Severe,132.0,192.168.62.32,10.0.170.253,2760,DNS,Yes,other
+2024-01-07 07:12:00,access_point_y,packet loss,Severe,42.0,192.168.194.226,10.0.189.234,328,Tcp,Yes,failure
+2024-01-05 03:59:00,srv c,high latency,CRITICAL,68.0,192.168.89.198,10.0.76.139,6916,icmp,Yes,performance
+2024-01-16 17:06:00,router a,hardware failure,low,116.0,192.168.231.110,10.0.237.133,250,DNS,No,other
+2024-02-10 19:00:00,db_z,slow network,High,140.0,192.168.88.23,10.0.107.194,1452,QUIC,No,other
+2024-01-25 03:39:00,server_c,downtime,moderate,109.0,192.168.211.132,10.0.131.15,7215,TLS,No,other
+2024-02-08 11:00:00,load_balancer_1,connection lost,low,101.0,192.168.204.39,10.0.138.244,2577,QUIC,No,other
+2024-01-26 16:46:00,server_c,ddos attack,Severe,144.0,192.168.92.154,10.0.227.60,7750,udp,No,other
+2024-01-17 14:49:00,router a,high latency,low,169.0,192.168.72.61,10.0.121.180,6637,icmp,Yes,performance
+2024-02-08 20:07:00,firewall x,ddos attack,med,107.0,192.168.218.173,10.0.86.205,1740,udp,No,other
+2024-02-15 17:48:00,router a,ddos attack,High,46.0,192.168.44.88,10.0.153.153,1194,icmp,Yes,other
+2024-02-07 00:51:00,srv c,packet loss,Severe,13.0,192.168.204.246,10.0.139.75,2785,DNS,No,failure
+2024-01-12 23:11:00,server_c,hardware failure,critical,49.0,192.168.236.162,10.0.85.105,8013,TLS,No,other
+2024-01-25 14:03:00,srv c,ddos attack,med,180.0,192.168.232.53,10.0.220.66,2413,DNS,Yes,other
+2024-01-17 01:23:00,srv c,slow network,Severe,22.0,192.168.163.27,10.0.246.49,5307,TLS,No,other
+2024-01-02 08:11:00,server_c,connection lost,Severe,130.0,192.168.199.251,10.0.63.168,2279,Tcp,Yes,other
+2024-01-27 06:33:00,server_c,high latency,critical,124.0,192.168.10.51,10.0.200.202,4361,Tcp,No,performance
+2024-02-18 07:13:00,firewall x,packet loss,Severe,137.0,192.168.254.204,10.0.170.139,Unknown,QUIC,Yes,failure
+2024-01-21 03:57:00,load_balancer_1,slow network,High,100.0,192.168.1.149,10.0.73.98,4761,tcp,Yes,other
+2024-01-26 06:32:00,edge_proxy,packet loss,med,26.0,192.168.18.43,10.0.193.220,6828,tcp,Yes,failure
+2024-01-07 00:11:00,router a,slow network,critical,55.0,192.168.158.202,10.0.30.74,2000,TLS,No,other
+2024-01-06 12:33:00,db_z,downtime,MEDIUM,18.0,192.168.101.163,10.0.214.184,1469,TLS,No,other
+2024-01-29 14:47:00,firewall x,connection lost,low,146.0,192.168.116.220,10.0.10.192,6661,TLS,No,other
+2024-01-20 11:30:00,firewall x,high latency,low,69.0,192.168.153.213,10.0.141.212,1761,icmp,No,performance
+2024-01-04 02:37:00,switch-b,downtime,CRITICAL,13.0,192.168.135.255,10.0.180.242,Unknown,tcp,Yes,other
+2024-01-23 22:17:00,router a,connection lost,med,39.0,192.168.189.150,10.0.153.91,4629,UDP,No,other
+2024-02-14 12:35:00,firewall x,slow network,Severe,64.0,192.168.37.3,10.0.141.35,6891,UDP,Yes,other
+2024-02-10 01:46:00,load_balancer_1,firmware crash,moderate,108.0,192.168.1.72,10.0.77.221,3415,TLS,No,other
+2024-02-06 04:13:00,access_point_y,ddos attack,CRITICAL,89.0,192.168.221.27,10.0.19.38,8021,udp,No,other
+2024-02-06 11:43:00,access_point_y,ddos attack,moderate,164.0,192.168.0.238,10.0.109.234,3627,UDP,Yes,other
+2024-01-15 20:27:00,edge_proxy,downtime,CRITICAL,137.0,192.168.28.35,10.0.19.245,1845,udp,No,other
+2024-01-24 01:25:00,firewall x,downtime,moderate,95.0,192.168.218.48,10.0.54.57,5895,TLS,No,other
+2024-01-30 16:46:00,db_z,slow network,moderate,173.0,192.168.210.50,10.0.90.235,3993,DNS,Yes,other
+2024-01-04 17:47:00,load_balancer_1,hardware failure,low,44.0,192.168.203.177,10.0.62.102,3077,DNS,No,other
+2024-01-07 10:52:00,server_c,connection lost,critical,145.0,192.168.102.207,10.0.91.113,449,UDP,Yes,other
+2024-02-16 11:04:00,access_point_y,high latency,Severe,41.0,192.168.236.200,10.0.75.242,3692,ICMP,Yes,performance
+2024-01-14 02:35:00,srv c,packet loss,low,16.0,192.168.92.185,10.0.108.57,2823,icmp,Yes,failure
+2024-01-26 05:06:00,switch-b,unauthorized access,critical,10.0,192.168.16.154,10.0.150.148,6966,TLS,Yes,security
+2024-01-09 22:38:00,firewall x,packet loss,med,150.0,192.168.214.35,10.0.67.14,6486,udp,Yes,failure
+2024-02-16 08:59:00,db_z,ddos attack,med,30.0,192.168.195.228,10.0.123.135,7110,UDP,No,other
+2024-02-05 08:49:00,router a,high latency,low,57.0,192.168.7.247,10.0.91.93,3742,DNS,Yes,performance
+2024-01-13 06:35:00,edge_proxy,firmware crash,low,39.0,192.168.87.186,10.0.228.43,1098,ICMP,No,other
+2024-02-05 03:02:00,firewall x,slow network,low,64.0,192.168.191.37,10.0.178.255,811,ICMP,Yes,other
+2024-01-14 05:32:00,router a,ddos attack,high,29.0,192.168.241.211,10.0.63.122,6486,TLS,Yes,other
+2024-01-29 02:10:00,edge_proxy,firmware crash,LOW,99.0,???.???.???.???,10.0.237.95,3087,tcp,Yes,other
+2024-02-09 11:18:00,firewall x,firmware crash,Severe,82.0,192.168.86.49,10.0.90.12,3050,QUIC,No,other
+2024-02-10 12:38:00,firewall x,high latency,MEDIUM,111.0,192.168.160.197,10.0.247.9,3617,QUIC,Yes,performance
+2024-02-10 13:06:00,db_z,packet loss,CRITICAL,48.0,192.168.96.18,10.0.135.0,4038,ICMP,Yes,failure
+2024-02-10 23:43:00,firewall x,firmware crash,Severe,30.0,192.168.172.134,10.0.207.121,6464,udp,No,other
+2024-01-16 16:01:00,srv c,packet loss,low,52.0,192.168.69.202,10.0.96.178,1194,Tcp,No,failure
+2024-02-05 08:49:00,router a,unauthorized access,critical,22.0,192.168.227.49,10.0.91.15,3445,UDP,Yes,security
+2024-01-16 15:58:00,server_c,packet loss,critical,166.0,192.168.199.152,10.0.184.205,1127,icmp,No,failure
+2024-01-09 02:09:00,access_point_y,firmware crash,MEDIUM,140.0,192.168.121.79,10.0.164.24,6935,ICMP,No,other
+2024-02-10 15:40:00,load_balancer_1,ddos attack,moderate,76.0,192.168.17.136,10.0.35.72,6925,QUIC,Yes,other
+2024-01-19 01:25:00,switch-b,hardware failure,low,111.0,192.168.90.232,10.0.138.56,7665,QUIC,Yes,other
+2024-01-02 10:43:00,switch-b,firmware crash,med,132.0,192.168.214.97,10.0.62.212,6219,Tcp,Yes,other
+2024-01-02 23:20:00,access_point_y,ddos attack,High,48.0,???.???.???.???,10.0.83.225,7986,QUIC,Yes,other
+2024-01-02 15:15:00,switch-b,connection lost,med,18.0,192.168.44.158,10.0.180.252,843,udp,No,other
+2024-01-23 23:12:00,load_balancer_1,unauthorized access,low,138.0,192.168.38.20,10.0.153.159,6517,UDP,Yes,security
+2024-02-17 01:57:00,firewall x,downtime,moderate,28.0,192.168.26.118,10.0.40.246,6440,icmp,No,other
+2024-02-15 14:36:00,srv c,ddos attack,High,23.0,192.168.164.190,10.0.105.142,486,QUIC,Yes,other
+2024-02-12 10:29:00,server_c,ddos attack,critical,93.0,192.168.192.172,10.0.43.228,4351,ICMP,No,other
+2024-01-27 09:20:00,router a,connection lost,Severe,129.0,192.168.53.39,10.0.147.195,Unknown,TLS,No,other
+2024-01-01 00:30:00,load_balancer_1,connection lost,moderate,39.0,192.168.248.73,10.0.37.153,7493,TLS,No,other
+2024-02-06 22:54:00,srv c,high latency,Severe,106.0,192.168.152.25,10.0.38.229,7101,icmp,Yes,performance
+2024-02-06 19:48:00,firewall x,slow network,MEDIUM,78.0,192.168.4.111,10.0.165.171,2169,Tcp,No,other
+2024-02-12 12:51:00,db_z,downtime,moderate,58.0,192.168.229.194,10.0.13.227,230,tcp,No,other
+2024-02-10 20:14:00,access_point_y,high latency,high,72.0,192.168.108.46,10.0.77.176,5059,UDP,No,performance
+2024-02-18 09:19:00,load_balancer_1,firmware crash,Severe,98.0,192.168.237.24,10.0.188.60,1514,UDP,No,other
+2024-01-07 09:34:00,srv c,unauthorized access,High,32.0,192.168.9.130,10.0.146.247,670,ICMP,No,security
+2024-01-20 18:42:00,db_z,slow network,Severe,85.0,192.168.72.220,10.0.158.206,6933,icmp,Yes,other
+2024-01-25 22:27:00,router a,ddos attack,low,48.0,192.168.190.119,10.0.101.19,5037,TLS,Yes,other
+2024-02-05 17:23:00,srv c,unauthorized access,Severe,176.0,192.168.100.91,10.0.101.219,7039,QUIC,No,security
+2024-01-06 00:33:00,load_balancer_1,connection lost,high,104.0,192.168.49.241,10.0.23.246,1978,ICMP,Yes,other
+2024-02-17 02:13:00,router a,ddos attack,MEDIUM,178.0,192.168.38.34,10.0.90.124,Unknown,TLS,Yes,other
+2024-01-21 21:53:00,srv c,downtime,Severe,82.0,192.168.178.84,10.0.171.38,5111,UDP,Yes,other
+2024-02-18 14:15:00,firewall x,downtime,med,65.0,192.168.158.90,10.0.147.188,970,tcp,Yes,other
+2024-01-16 00:52:00,access_point_y,hardware failure,low,137.0,192.168.31.120,10.0.44.156,7039,QUIC,Yes,other
+2024-01-06 04:16:00,switch-b,ddos attack,low,19.0,???.???.???.???,10.0.101.22,4655,DNS,Yes,other
+2024-01-21 17:02:00,firewall x,connection lost,CRITICAL,24.0,192.168.66.85,10.0.101.146,4869,QUIC,No,other
+2024-02-08 17:09:00,switch-b,packet loss,critical,92.0,192.168.243.111,10.0.159.247,5279,QUIC,Yes,failure
+2024-01-30 02:32:00,srv c,ddos attack,LOW,175.0,192.168.146.43,10.0.58.145,1217,icmp,No,other
+2024-01-16 06:50:00,srv c,unauthorized access,High,172.0,192.168.252.242,10.0.207.188,6242,Tcp,Yes,security
+2024-01-20 05:44:00,server_c,high latency,Severe,172.0,192.168.60.177,10.0.125.27,5538,TLS,Yes,performance
+2024-01-31 19:19:00,access_point_y,connection lost,High,20.0,192.168.84.175,10.0.153.158,4401,udp,No,other
+2024-01-29 07:29:00,edge_proxy,downtime,low,51.0,192.168.29.206,10.0.250.160,2556,tcp,No,other
+2024-01-11 15:02:00,db_z,downtime,High,73.0,192.168.164.165,10.0.170.245,1822,Tcp,Yes,other
+2024-02-12 18:54:00,switch-b,hardware failure,critical,122.0,192.168.152.198,10.0.85.13,1419,UDP,Yes,other
+2024-01-31 06:32:00,firewall x,slow network,CRITICAL,90.0,192.168.194.55,10.0.144.91,5564,TLS,No,other
+2024-01-12 03:14:00,router a,unauthorized access,high,81.0,192.168.114.236,10.0.168.64,7830,UDP,Yes,security
+2024-02-15 18:33:00,router a,hardware failure,High,129.0,192.168.243.124,10.0.180.239,4696,udp,No,other
+2024-02-18 12:52:00,srv c,slow network,med,153.0,192.168.51.150,10.0.101.164,992,Tcp,Yes,other
+2024-01-30 14:34:00,db_z,unauthorized access,High,85.0,192.168.107.182,10.0.81.18,4900,DNS,No,security
+2024-01-06 15:44:00,switch-b,connection lost,LOW,119.0,192.168.80.217,10.0.113.226,4377,QUIC,Yes,other
+2024-01-07 15:12:00,load_balancer_1,downtime,med,155.0,192.168.201.223,10.0.183.30,4283,TLS,Yes,other
+2024-01-14 10:23:00,server_c,downtime,LOW,134.0,192.168.82.235,10.0.133.232,1981,Tcp,No,other
+2024-02-02 19:24:00,load_balancer_1,hardware failure,MEDIUM,21.0,192.168.192.35,10.0.55.252,875,udp,Yes,other
+2024-02-13 05:45:00,db_z,hardware failure,High,66.0,192.168.78.186,10.0.155.167,832,QUIC,Yes,other
+2024-02-12 19:12:00,access_point_y,slow network,moderate,144.0,192.168.222.153,10.0.172.146,5291,icmp,No,other
+2024-01-06 04:16:00,server_c,firmware crash,high,111.0,192.168.193.187,10.0.186.33,1467,DNS,No,other
+2024-02-02 18:24:00,router a,ddos attack,med,73.0,192.168.179.193,10.0.89.179,3380,DNS,Yes,other
+2024-02-17 11:44:00,router a,unauthorized access,Severe,102.0,192.168.223.141,10.0.38.209,3592,QUIC,Yes,security
+2024-02-02 21:06:00,firewall x,slow network,High,143.0,192.168.189.48,10.0.147.118,4009,tcp,No,other
+2024-02-16 00:12:00,load_balancer_1,hardware failure,critical,57.0,192.168.57.240,10.0.169.89,415,TLS,Yes,other
+2024-01-02 15:48:00,router a,slow network,moderate,86.0,192.168.165.243,10.0.22.181,1456,DNS,Yes,other
+2024-01-31 11:29:00,switch-b,packet loss,moderate,96.0,192.168.155.71,10.0.114.49,7907,DNS,Yes,failure
+2024-01-21 16:49:00,server_c,ddos attack,med,8.0,192.168.174.240,10.0.219.82,7498,tcp,No,other
+2024-02-12 12:08:00,db_z,firmware crash,low,62.0,192.168.85.106,10.0.87.44,6169,UDP,Yes,other
+2024-01-25 03:06:00,router a,hardware failure,critical,160.0,192.168.104.127,10.0.162.191,1387,udp,No,other
+2024-02-10 01:25:00,server_c,slow network,low,167.0,192.168.96.103,10.0.40.235,1649,QUIC,No,other
+2024-01-24 14:07:00,router a,unauthorized access,low,101.0,192.168.53.23,10.0.195.107,2402,TLS,Yes,security
+2024-01-17 23:24:00,server_c,packet loss,critical,111.0,192.168.240.131,10.0.207.143,323,tcp,Yes,failure
+2024-02-13 05:13:00,server_c,packet loss,high,60.0,192.168.43.188,10.0.42.181,3622,udp,No,failure
+2024-01-05 07:57:00,srv c,ddos attack,MEDIUM,8.0,192.168.100.69,10.0.57.254,3893,ICMP,Yes,other
+2024-01-16 04:07:00,switch-b,firmware crash,Severe,165.0,192.168.207.220,10.0.218.217,3378,tcp,Yes,other
+2024-02-14 17:21:00,router a,packet loss,med,80.0,192.168.137.177,10.0.89.229,5239,tcp,No,failure
+2024-01-30 21:02:00,access_point_y,connection lost,moderate,126.0,192.168.45.207,10.0.13.183,2931,TLS,No,other
+2024-02-14 15:03:00,db_z,downtime,med,25.0,192.168.86.80,10.0.208.54,1337,UDP,Yes,other
+2024-02-16 14:01:00,srv c,downtime,high,132.0,192.168.154.43,10.0.210.216,3948,ICMP,No,other
+2024-01-20 09:12:00,router a,connection lost,high,16.0,192.168.4.216,10.0.221.80,916,UDP,Yes,other
+2024-02-01 23:13:00,edge_proxy,ddos attack,critical,6.0,192.168.158.128,10.0.209.151,278,UDP,Yes,other
+2024-02-07 06:21:00,access_point_y,slow network,High,110.0,192.168.126.114,10.0.61.238,5556,icmp,Yes,other
+2024-01-26 19:52:00,edge_proxy,slow network,LOW,87.0,192.168.165.150,10.0.171.106,7555,UDP,No,other
+2024-01-11 11:08:00,access_point_y,hardware failure,High,97.0,192.168.235.91,10.0.102.126,6990,tcp,No,other
+2024-01-18 13:59:00,switch-b,firmware crash,CRITICAL,116.0,192.168.136.197,10.0.231.136,683,UDP,Yes,other
+2024-01-30 06:14:00,switch-b,high latency,med,81.0,192.168.150.55,10.0.42.15,3099,QUIC,Yes,performance
+2024-01-28 18:51:00,edge_proxy,firmware crash,med,70.0,192.168.22.21,10.0.31.114,1908,TLS,Yes,other
+2024-01-03 09:08:00,router a,high latency,low,48.0,192.168.161.237,10.0.241.214,2494,tcp,No,performance
+2024-01-10 19:50:00,access_point_y,firmware crash,med,127.0,192.168.91.59,10.0.189.138,5625,TLS,No,other
+2024-01-29 23:36:00,firewall x,downtime,moderate,96.0,192.168.234.109,10.0.193.75,5849,TLS,No,other
+2024-02-04 11:26:00,switch-b,firmware crash,med,118.0,192.168.79.108,10.0.175.234,1693,DNS,Yes,other
+2024-01-03 00:56:00,db_z,hardware failure,High,174.0,192.168.157.222,10.0.134.200,3770,tcp,No,other
+2024-01-24 14:47:00,firewall x,connection lost,critical,53.0,192.168.67.125,10.0.62.38,3370,tcp,No,other
+2024-01-12 11:02:00,db_z,high latency,critical,90.0,192.168.135.191,10.0.255.241,5525,ICMP,No,performance
+2024-01-12 23:00:00,srv c,slow network,med,42.0,192.168.24.197,10.0.205.247,7942,Tcp,Yes,other
+2024-01-22 19:43:00,router a,ddos attack,critical,41.0,192.168.125.199,10.0.174.176,363,TLS,Yes,other
+2024-01-04 08:20:00,switch-b,ddos attack,LOW,139.0,192.168.230.237,10.0.23.80,3578,ICMP,No,other
+2024-01-27 12:13:00,access_point_y,slow network,MEDIUM,126.0,192.168.22.75,10.0.160.213,2108,udp,No,other
+2024-01-23 03:05:00,router a,packet loss,CRITICAL,104.0,192.168.49.147,10.0.163.193,398,QUIC,No,failure
+2024-01-14 12:56:00,load_balancer_1,slow network,Severe,134.0,192.168.50.45,10.0.229.237,4298,Tcp,Yes,other
+2024-02-14 18:00:00,srv c,high latency,CRITICAL,70.0,192.168.179.25,10.0.215.128,7111,ICMP,No,performance
+2024-01-06 08:37:00,router a,unauthorized access,critical,151.0,192.168.132.203,10.0.239.187,6613,UDP,No,security
+2024-02-04 06:21:00,access_point_y,slow network,Severe,162.0,192.168.233.122,10.0.184.84,2047,udp,No,other
+2024-02-02 08:04:00,srv c,packet loss,CRITICAL,94.0,192.168.126.157,10.0.41.99,4047,DNS,Yes,failure
+2024-02-17 18:43:00,edge_proxy,slow network,moderate,12.0,192.168.1.105,10.0.241.221,5779,tcp,Yes,other
